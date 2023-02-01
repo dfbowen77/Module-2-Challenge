@@ -1,0 +1,16 @@
+header {
+    padding: 30px;
+    text-align: center;
+    background: #13293d;
+    color: #fff;
+    display: flex;
+  }
+
+h1 { 
+    padding: 0px 100px 0px 0px;
+    font-size: 30px;
+}
+
+nav {
+    font-size: 20px;
+  }
