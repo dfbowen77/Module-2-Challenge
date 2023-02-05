@@ -1,3 +1,6 @@
+* {
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
 header {
     padding: 30px;
     text-align: center;
@@ -7,7 +10,7 @@ header {
 
 h1 { 
     padding: 0px 100px 0px 0px;
-    font-size: 40px;
+    font-size: 50px;
 }
 
 nav {
@@ -30,7 +33,7 @@ nav {
     padding: 10px 15px;
     text-decoration: none;
     color: white;
-    font-size: 20px;
+    font-size: 25px;
   }
   
   .links:hover {
@@ -43,7 +46,7 @@ nav {
 
   .sub-header {
     display: flex;
-    justify-content: left;
+    justify-content: center;
     padding: 20px;
     border: solid;
     border-color: black;
@@ -98,6 +101,7 @@ nav {
     border-color: gold;
     margin: 10px;
     box-shadow: 5px 5px teal;
+    font-family: 'Times New Roman', Times, serif;
   }
 
   .work {
@@ -166,4 +170,52 @@ nav {
     font-weight: bold;
     text-align: center;
   }
+
+  .contact-me {
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    flex-direction: row;
+    border-style: solid;
+    border-width: 4px;
+    border-color: black;
+    background-color: rgba(7, 7, 146, 0.075) ;
+    align-items: center;
+  }
   
+  .contact-me h3 { 
+    display: flex;
+    padding: 100px;
+    font-size: 25px;
+    align-self: center;
+    border-style: solid;
+    border-width: 2px;
+    border-color: gold;
+    margin: 10px;
+    box-shadow: 5px 5px teal;
+    justify-self: left;
+}
+
+.links-contact {
+    list-style: none;
+    display: flex;
+    
+  }
+
+.links-2 a {
+    display: inline-block;
+    padding: 10px 15px;
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+    font-weight: bolder;
+    text-decoration: underline;
+  }
+  
+  .links-2:hover {
+    background-color: white;
+  }
+  
+  .links-2:hover a {
+    color: red;
+  }
