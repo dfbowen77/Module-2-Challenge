@@ -41,7 +41,7 @@ nav {
   }
   
   .links:hover a {
-    color: red;
+    background-color: blueviolet;
   }
 
   .sub-header {
@@ -64,6 +64,10 @@ nav {
     border-color: black;
     background-color: rgba(7, 7, 146, 0.075) ;
     align-items: center;
+  }
+
+  .about-me:hover {
+    background-color: lightskyblue;
   }
 
   .about-me h3 { 
@@ -116,6 +120,10 @@ nav {
     align-items: center;
   }
 
+  .work:hover {
+    background-color: lightskyblue;
+  }
+
   .work h3 { 
     display: flex;
     padding: 100px;
@@ -149,9 +157,21 @@ nav {
     rotate: 3deg;
   }
 
+  .app:hover {
+    background-color: blueviolet;
+  }
+
   .app header {
     font-weight: bold;
     font-size: 24px;
+    text-decoration: none;
+    color: black;
+    background-color: rgba(7, 7, 146, 0);
+  }
+
+  .app a {
+    font-size: 24px;
+    text-decoration: none;
   }
 
   .app img {
@@ -169,6 +189,7 @@ nav {
   .app p {
     font-weight: bold;
     text-align: center;
+    color: black;
   }
 
   .contact-me {
@@ -181,6 +202,10 @@ nav {
     border-color: black;
     background-color: rgba(7, 7, 146, 0.075) ;
     align-items: center;
+  }
+
+  .contact-me:hover {
+    background-color: lightskyblue;
   }
   
   .contact-me h3 { 
@@ -205,7 +230,6 @@ nav {
 .links-2 a {
     display: inline-block;
     padding: 10px 15px;
-    text-decoration: none;
     color: black;
     font-size: 25px;
     font-weight: bolder;
@@ -217,5 +241,9 @@ nav {
   }
   
   .links-2:hover a {
-    color: red;
+    background-color: blueviolet;
+  }
+
+  footer {
+    display: none;
   }
