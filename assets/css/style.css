@@ -247,3 +247,10 @@ nav {
   footer {
     display: none;
   }
+
+  @media screen and (max-width: 1000px) {
+    .work, .about-me, .contact-me {
+      flex-direction: column;
+      background-color: silver;
+    }
+  }
