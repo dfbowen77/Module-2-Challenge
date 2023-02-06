@@ -1,22 +1,24 @@
 # Module-2-Challenge
-This is the repo for my Module 2 Challenge
+This is the repo for my Module 2 Challenge submission
 
-## User Story
-AS AN employer
-I WANT to view a potential employee's deployed portfolio of work samples
-SO THAT I can review samples of their work and assess whether they're a good candidate for an open position
+## Description
+The following webpage is designed to meet the requirements of the Module 2 Challenge. It represents the beginnings of a portfolio webpage. It contains an about me section which describes me along with an recent image, it has a work section which contains eventual projects I'd like to complete, and it has a contact me section which contains ways I may be reached.  
 
-## Acceptance Criteria
-GIVEN I need to sample a potential employee's previous work
-WHEN I load their portfolio
-THEN I am presented with the developer's name, a recent photo or avatar, and links to sections about them, their work, and how to contact them
-WHEN I click one of the links in the navigation
-THEN the UI scrolls to the corresponding section
-WHEN I click on the link to the section about their work
-THEN the UI scrolls to a section with titled images of the developer's applications
-WHEN I am presented with the developer's first application
-THEN that application's image should be larger in size than the others
-WHEN I click on the images of the applications
-THEN I am taken to that deployed application
-WHEN I resize the page or view the site on various screens and devices
-THEN I am presented with a responsive layout that adapts to my viewport
+## Screen Shot
+![image](https://user-images.githubusercontent.com/122385993/217023233-28211111-252e-492d-8303-331f8dea384c.png)
+![image](https://user-images.githubusercontent.com/122385993/217023441-3ebe3b8a-3ec0-41d2-a122-953cfcc3bacf.png)
+![image](https://user-images.githubusercontent.com/122385993/217023779-1da1a364-ded6-44af-9c36-386247fd1489.png)
+![image](https://user-images.githubusercontent.com/122385993/217024115-6256ce01-48cf-46f0-a188-dc8a85c96ed9.png)
+
+
+## Installation
+N/A
+
+## Usage
+To view the webpage please visit the following link: https://dfbowen77.github.io/Module-2-Challenge/
+
+## Credits
+Daniel F. Bowen
+
+## License
+Please refer to the LICENSE in the repo
